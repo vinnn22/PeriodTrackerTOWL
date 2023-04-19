@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroud_color"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/CardView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:cardBackgroundColor="#ffffff"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            app:cardCornerRadius="60dp"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:id="@+id/appLogo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/logo" />
+
+        </androidx.cardview.widget.CardView>
+
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_height="353dp"/>
+
+        <TextView
+            android:id="@+id/pregnancy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pregnancy_probability"
+            android:textColor="@color/mibai"
+            android:background="@color/button_color"
+            android:textSize="20sp"
+            android:gravity="center"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_gravity="center_horizontal|bottom" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="41dp"
+                android:textSize="25sp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_gravity="center_horizontal|bottom"/>
+
+            <TextView
+                android:id="@+id/calendar"
+                android:layout_width="46dp"
+                android:layout_height="41dp"
+                android:background="@drawable/calendar_icon"
+                android:textSize="25sp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_gravity="center_horizontal|bottom"/>
+
+            <TextView
+                android:layout_width="65dp"
+                android:layout_height="41dp"
+                android:textSize="25sp"
+                app:layout_constraintStart_toEndOf="@id/calendar"
+                app:layout_constraintEnd_toStartOf="@id/setting"
+                android:layout_gravity="center_horizontal|bottom"/>
+
+            <TextView
+                android:id="@+id/report"
+                android:layout_width="46dp"
+                android:layout_height="41dp"
+                android:background="@drawable/report_icon"
+                android:textSize="25sp"
+                app:layout_constraintStart_toEndOf="@id/calendar"
+                app:layout_constraintEnd_toStartOf="@id/setting"
+                android:layout_gravity="center_horizontal|bottom"/>
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="51dp"
+                android:textSize="25sp"
+                app:layout_constraintStart_toEndOf="@id/report"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_gravity="center_horizontal|bottom"/>
+
+            <TextView
+                android:id="@+id/setting"
+                android:layout_width="56dp"
+                android:layout_height="45dp"
+                android:background="@drawable/setting_icon"
+                android:textSize="25sp"
+                app:layout_constraintStart_toEndOf="@id/report"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_gravity="center_horizontal|bottom"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

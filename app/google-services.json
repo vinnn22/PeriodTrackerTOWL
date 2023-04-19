@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "1032040448066",
+    "firebase_url": "https://calender-1f842-default-rtdb.firebaseio.com",
+    "project_id": "calender-1f842",
+    "storage_bucket": "calender-1f842.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032040448066:android:6fd8c29e0e77967ff0eddb",
+        "android_client_info": {
+          "package_name": "my.edu.utar.calender"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032040448066-hepro300ncvnklf83fqmhu6mhue4g0se.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE1-TsuCQVrindBv9hapkyyOX-x38YBE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032040448066-hepro300ncvnklf83fqmhu6mhue4g0se.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032040448066:android:c7fcb879372f8043f0eddb",
+        "android_client_info": {
+          "package_name": "my.edu.utar.notification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032040448066-hepro300ncvnklf83fqmhu6mhue4g0se.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE1-TsuCQVrindBv9hapkyyOX-x38YBE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032040448066-hepro300ncvnklf83fqmhu6mhue4g0se.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032040448066:android:46ac0172ed74a7faf0eddb",
+        "android_client_info": {
+          "package_name": "my.edu.utar.periodtrackertowl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032040448066-hepro300ncvnklf83fqmhu6mhue4g0se.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE1-TsuCQVrindBv9hapkyyOX-x38YBE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032040448066-hepro300ncvnklf83fqmhu6mhue4g0se.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

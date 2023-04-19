@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pemantau Kitaran Haid(TOWL)</string>
+
+    <string name="English">Bahasa Inggeris</string>
+    <string name="Chinese">Bahasa Cina</string>
+    <string name="Malay">Bahasa Melayu</string>
+    <string name="Language_selected">Bahasa telah dipilih</string>
+    <string name="apply">terapkan</string>
+    <string name="Password">Kata Laluan</string>
+    <string name="Language">Bahasa</string>
+    <string name="Calendar">Kalendar</string>
+    <string name="Report">Laporan</string>
+    <string name="Setting">Tetapan</string>
+    <string name="Background">Latar belakang</string>
+    <string name="FAQ">Soalan Lazim</string>
+    <string name="PIN">Kata Laluan</string>
+    <string name="selected_language">Bahasa yang dipilih: </string>
+    <string name="set_passcode">Tetapkan Kod Laluan</string>
+    <string name="disable_passcode">Lumpuhkan Kod Laluan</string>
+    <string name="confirm_disable_passcode">Adakah anda pasti mahu melumpuhkan perlindungan kod laluan?</string>
+    <string name="confirm_passcode">Sahkan Kod Laluan</string>
+    <string name="enter_passcode">Sila masukkan kod laluan anda untuk mengesahkan tindakan.</string>
+    <string name="passcode_turned_off">Perlindungan kod laluan dimatikan</string>
+    <string name="incorrect_passcode">Perlindungan kod laluan dimatikan</string>
+    <string name="error">Kesilapan</string>
+    <string name="passcode_must_be_four_digits">Kata laluan mestilah nombor 4 digit</string>
+    <string name="passcode_set_successfully">Kod laluan berjaya ditetapkan</string>
+    <string name="enter_passcode_main">Masukkan Kod Laluan</string>
+    <string name="Submit">Menyerahkan</string>
+    <string name="Account">Akaun</string>
+    <string name="pregnancy_probability">Kebarangkalian Kehamilan</string>
+
+</resources>

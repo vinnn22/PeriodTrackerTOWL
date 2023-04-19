@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PeriodTracker(TOWL)</string>
+
+    <string name="English">English</string>
+    <string name="Chinese">Chinese</string>
+    <string name="Malay">Malay</string>
+    <string name="Language_selected">Language selected</string>
+    <string name="apply">apply</string>
+    <string name="Password">Password</string>
+    <string name="Language">Language</string>
+    <string name="Calendar">Calendar</string>
+    <string name="Report">Report</string>
+    <string name="Setting">Setting</string>
+    <string name="Background">Background</string>
+    <string name="FAQ">FAQ</string>
+    <string name="PIN">PIN</string>
+    <string name="selected_language">Selected Language：</string>
+    <string name="set_passcode">Set Passcode</string>
+    <string name="disable_passcode">Disable Passcode</string>
+    <string name="confirm_disable_passcode">Are you sure you want to disable the passcode protection?</string>
+    <string name="confirm_passcode">Confirm Passcode</string>
+    <string name="enter_passcode">Please enter your passcode to confirm the action.</string>
+    <string name="passcode_turned_off">Passcode protection turned off</string>
+    <string name="incorrect_passcode">Incorrect passcode</string>
+    <string name="error">Error</string>
+    <string name="passcode_must_be_four_digits">Passcode must be a 4-digit number</string>
+    <string name="passcode_set_successfully">Passcode set successfully</string>
+    <string name="enter_passcode_main">Enter Passcode</string>
+    <string name="Submit">Submit</string>
+    <string name="Account">Account</string>
+    <string name="pregnancy_probability">Pregnancy Probability</string>
+
+
+</resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Background"
+    android:background="@color/backgroud_color">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="294dp">
+
+        <ImageView
+            android:id="@+id/toolbar"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:onClick="onBackPressed"
+            android:src="@drawable/ic_arrow_back" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/CardView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            app:cardBackgroundColor="#ffffff"
+            android:layout_centerHorizontal="true"
+            app:cardCornerRadius="60dp">
+
+            <ImageView
+                android:id="@+id/appLogo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/logo" />
+
+        </androidx.cardview.widget.CardView>
+
+                    <Space
+                android:layout_width="match_parent"
+                android:layout_height="37dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/brown"
+                android:layout_width="125dp"
+                android:layout_height="140dp"
+                android:background="@color/backgroud_color"
+                android:onClick="changeColor"
+                android:text="" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Brown"
+                android:textColor="@color/black"
+                android:textSize="25dp"></TextView>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="37dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/crystal"
+                android:layout_weight="1"
+                android:layout_width="125dp"
+                android:layout_height="140dp"
+                android:background="@color/Crystal"
+                android:onClick="changeColor" />
+
+            <TextView
+                android:id="@+id/soap"
+                android:layout_weight="1"
+                android:layout_width="125dp"
+                android:layout_height="140dp"
+                android:background="@color/Soap"
+                android:onClick="changeColor"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/water"
+                android:layout_weight="1"
+                android:layout_width="125dp"
+                android:layout_height="140dp"
+                android:background="@color/Water"
+                android:onClick="changeColor"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Crystal"
+                android:textColor="@color/black"
+                android:textSize="25dp"></TextView>
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Soap"
+                android:textColor="@color/black"
+                android:textSize="25dp"></TextView>
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Cornsilk"
+                android:textColor="@color/black"
+                android:textSize="25dp"></TextView>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
